@@ -7,6 +7,7 @@
       <!-- Add more menu items as needed -->
     </el-menu>
   </div>
+  <router-view></router-view>
 </template>
 
 

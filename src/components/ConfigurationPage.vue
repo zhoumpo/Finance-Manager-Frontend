@@ -1,17 +1,17 @@
 <template>
+    <div>TEST</div>
     <div>
         <h1>Configuration</h1>
         <el-form>
-            <!-- Form fields for creating a Bank -->
             <el-form-item label="Bank Name">
                 <el-input v-model="newBankName"></el-input>
             </el-form-item>
             <el-button type="primary" @click="createBank">Create Bank</el-button>
-            <!-- Form fields for creating a Bank Account -->
-            <!-- ... -->
+            <!-- Add more form fields for bank account creation -->
         </el-form>
     </div>
 </template>
+  
   
 <script>
 export default {
@@ -23,6 +23,7 @@ export default {
     },
     methods: {
         createBank() {
+            console.log("test")
             // Logic for creating a new bank using the API (e.g., Django)
             // You can make an HTTP request to your Django API endpoint here
         },
